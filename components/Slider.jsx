@@ -13,11 +13,11 @@ const Slider = () => {
                     <div className='block relative w-full'>
                         <Image
                             src={Main}
-                            className='h-screen brightness-[.6]'
+                            className='h-screen brightness-[.6] object-cover'
                         />
                         
                         <div className="mt-20 absolute flex flex-col top-0 bottom-0 left-0 w-full p-4 text-white items-center justify-center text-center">
-                            <div className='max-w-4xl mt-20'>
+                            <div className='max-w-4xl mt-[15rem] md:mt-20'>
                                 <h2 className='-mt-3 md:text-lg font-semibold uppercase bg-gradient-to-r from-orange-400 to-lime-400 text-2xl bg-clip-text text-transparent'>
                                     <span>We are hiking and outdoor club</span>
                                 </h2>

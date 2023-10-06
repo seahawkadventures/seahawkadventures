@@ -5,15 +5,15 @@ import Avatar from '../public/rafting2.jpg';
 
 const Aboutus = () => {
     return (
-        <section className='w-full px-8 mt-10'>
-            <div className='flex flex-row mx-3'>
+        <section className='w-full px-1 md:px-8 mt-10'>
+            <div className='flex md:flex-row flex-col mx-3'>
                 <div className='w-[90%] relative mx-6'>
                     <p className='relative uppercase mt-2 z-10 font-bold text-lg text-orange-300'>
                         Discover Story
                     </p>
                     <h3 className='text-5xl relative mb-10 z-[1]'>
                         Of the Waves of Ganga
-                        <span className='absolute -z-[1] font-bold uppercase -left-2 -top-[40px] text-[110px] text-gray-100'>story</span>
+                        <span className='absolute -z-[1] font-bold uppercase -left-2 -top-[40px] text-[110px] text-gray-100 hidden lg:block'>story</span>
                     </h3>
 
                     <p className='font-mono my-2'>
