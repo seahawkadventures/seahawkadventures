@@ -46,6 +46,8 @@ const Navbar = () => {
                     <a href="/about" className='px-4 py-2 mx-2 cursor-pointer relative hover:text-green-600'>Feature</a>
                     <a href="/about" className='px-4 py-2 mx-2 cursor-pointer relative hover:text-green-600'>Pricing</a>
                     <a href="/about" className='px-4 py-2 mx-2 cursor-pointer relative hover:text-green-600'>Testimonial</a>
+                    <a href="/about" className='px-4 py-2 mx-2 cursor-pointer relative hover:text-green-600'>Contact Us</a>
+
                 </ul>
                 <div className='col-start-10 col-end-12 font-medium md:flex justify-end items-center hidden'>
                     <a href="/login" className={`mx-2 sm:mx-4 capitalize tracking-wide border p-2 rounded-md  hover:text-green-600 transition-all ${scroll?'text-black': 'text-white'}`}>Sign In</a>
